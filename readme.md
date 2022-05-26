@@ -539,6 +539,8 @@ public class MaterialType
 
 
 ```cs
+private List<MaterialType> ProductTypes = null;
+
   public IEnumerable<MaterialType> GetMaterialTypes()
         {
             if (ProductTypes == null)
