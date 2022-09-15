@@ -388,7 +388,7 @@ private void SearchFilterTextBox_KeyUp(object sender, KeyEventArgs e)
 ```cs
 private IEnumerable<Materials> _MaterialList;
 
-public IEnumerable<Materials> MaterialList
+public IEnumerable<Materials> MaterialList{
     get {
         var Result = _MaterialList;
 //это фильрация
